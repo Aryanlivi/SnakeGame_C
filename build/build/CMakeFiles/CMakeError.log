@@ -1,0 +1,101 @@
+Performing C SOURCE FILE Test COMPILER_HAS_THOSE_TOGGLES failed with the following output:
+Change Dir: D:/Aryan/Raylib_Projects/Snake/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4d121.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d121.dir\Debug\\" /Fd"cmTC_4d121.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -g -Werror=pointer-arith D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\src.c
+cl : command line error D8021: invalid numeric argument '/Werror=pointer-arith' [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_4d121.vcxproj]
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: D:/Aryan/Raylib_Projects/Snake/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3f20d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /W1 /WX- /diagnostics:column /O2 /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f20d.dir\Debug\\" /Fd"cmTC_3f20d.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -g D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\src.c
+cl : command line warning D9002: ignoring unknown option '-g' [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_3f20d.vcxproj]
+D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_3f20d.vcxproj]
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: D:/Aryan/Raylib_Projects/Snake/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_57ab0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /W1 /WX- /diagnostics:column /O2 /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57ab0.dir\Debug\\" /Fd"cmTC_57ab0.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -g -std=gnu99 "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+cl : command line warning D9002: ignoring unknown option '-g' [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_57ab0.vcxproj]
+cl : command line warning D9002: ignoring unknown option '-std=gnu99' [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_57ab0.vcxproj]
+LINK : warning LNK4044: unrecognized option '/lpthreads'; ignored [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_57ab0.vcxproj]
+LINK : warning LNK4044: unrecognized option '/-default-obj-ext'; ignored [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_57ab0.vcxproj]
+LINK : fatal error LNK1104: cannot open file '.obj' [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_57ab0.vcxproj]
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: D:/Aryan/Raylib_Projects/Snake/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_93cb8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /W1 /WX- /diagnostics:column /O2 /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93cb8.dir\Debug\\" /Fd"cmTC_93cb8.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -g -std=gnu99 "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+cl : command line warning D9002: ignoring unknown option '-g' [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_93cb8.vcxproj]
+cl : command line warning D9002: ignoring unknown option '-std=gnu99' [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_93cb8.vcxproj]
+LINK : warning LNK4044: unrecognized option '/lpthread'; ignored [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_93cb8.vcxproj]
+LINK : warning LNK4044: unrecognized option '/-default-obj-ext'; ignored [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_93cb8.vcxproj]
+LINK : fatal error LNK1104: cannot open file '.obj' [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_93cb8.vcxproj]
+
+
+
+Determining if compiler accepts -pthread failed with the following output:
+Change Dir: D:/Aryan/Raylib_Projects/Snake/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0b63f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckForPthreads.c
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b63f.dir\Debug\\" /Fd"cmTC_0b63f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -g -std=gnu99 "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckForPthreads.c"
+cl : command line warning D9002: ignoring unknown option '-g' [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_0b63f.vcxproj]
+cl : command line warning D9002: ignoring unknown option '-std=gnu99' [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_0b63f.vcxproj]
+C:\Program Files\CMake\share\cmake-3.20\Modules\CheckForPthreads.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\Aryan\Raylib_Projects\Snake\build\build\CMakeFiles\CMakeTmp\cmTC_0b63f.vcxproj]
+
+
+

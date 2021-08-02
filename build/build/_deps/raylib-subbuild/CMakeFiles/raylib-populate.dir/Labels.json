@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate"
+		},
+		{
+			"file" : "D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/CMakeFiles/5ae238c0dbe7ec443436cd1be1c55cf8/raylib-populate.rule"
+		},
+		{
+			"file" : "D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/CMakeFiles/8aebb4fe7a2ad967b660c1dc0a613c7b/raylib-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/CMakeFiles/998c53cee9f674b6e623ee0bf4448057/raylib-populate-build.rule"
+		},
+		{
+			"file" : "D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/CMakeFiles/998c53cee9f674b6e623ee0bf4448057/raylib-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/CMakeFiles/998c53cee9f674b6e623ee0bf4448057/raylib-populate-download.rule"
+		},
+		{
+			"file" : "D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/CMakeFiles/998c53cee9f674b6e623ee0bf4448057/raylib-populate-install.rule"
+		},
+		{
+			"file" : "D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/CMakeFiles/998c53cee9f674b6e623ee0bf4448057/raylib-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/CMakeFiles/998c53cee9f674b6e623ee0bf4448057/raylib-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/CMakeFiles/998c53cee9f674b6e623ee0bf4448057/raylib-populate-test.rule"
+		},
+		{
+			"file" : "D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/CMakeFiles/998c53cee9f674b6e623ee0bf4448057/raylib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"raylib-populate"
+		],
+		"name" : "raylib-populate"
+	}
+}

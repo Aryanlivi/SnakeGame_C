@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\core.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\models.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\shapes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\text.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\textures.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\raudio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\raylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\rlgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\physac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\raymath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\raudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2F299DE9-3983-355F-A086-15EAC34C4F27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{873AEA8C-CE8B-33E5-9356-C800DEF730B0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

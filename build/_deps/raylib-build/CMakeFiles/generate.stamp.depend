@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Internal/CheckSourceCompiles.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/CMakeLists.txt
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/CMakeOptions.txt
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/AddIfFlagCompiles.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/BuildOptions.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/CompilerFlags.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/EnumOption.cmake

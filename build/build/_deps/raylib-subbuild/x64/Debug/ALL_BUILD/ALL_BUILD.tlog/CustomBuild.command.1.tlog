@@ -1,0 +1,10 @@
+^D:\ARYAN\RAYLIB_PROJECTS\SNAKE\BUILD\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild -BD:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild --check-stamp-file D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

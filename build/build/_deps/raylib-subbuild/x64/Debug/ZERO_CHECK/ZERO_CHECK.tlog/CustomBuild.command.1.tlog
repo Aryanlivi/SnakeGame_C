@@ -1,0 +1,10 @@
+^D:\ARYAN\RAYLIB_PROJECTS\SNAKE\BUILD\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\5AE238C0DBE7EC443436CD1BE1C55CF8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild -BD:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Aryan/Raylib_Projects/Snake/build/build/_deps/raylib-subbuild/raylib-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

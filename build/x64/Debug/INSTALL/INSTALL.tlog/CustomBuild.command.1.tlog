@@ -1,0 +1,10 @@
+^D:\ARYAN\RAYLIB_PROJECTS\SNAKE\BUILD\CMAKEFILES\BEC079CCCADCF30E6BDA938A5DD40B81\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

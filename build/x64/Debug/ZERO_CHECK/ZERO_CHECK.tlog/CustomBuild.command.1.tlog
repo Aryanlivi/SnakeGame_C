@@ -1,0 +1,10 @@
+^D:\ARYAN\RAYLIB_PROJECTS\SNAKE\BUILD\CMAKEFILES\BEC079CCCADCF30E6BDA938A5DD40B81\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Aryan/Raylib_Projects/Snake -BD:/Aryan/Raylib_Projects/Snake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Aryan/Raylib_Projects/Snake/build/mysnake.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

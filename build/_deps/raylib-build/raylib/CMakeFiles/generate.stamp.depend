@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Templates/CPackConfig.cmake.in
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/CompileDefinitions.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/GlfwImport.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/InstallConfigurations.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/JoinPaths.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/LibraryConfigurations.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/PackConfigurations.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/cmake/raylib-config-version.cmake
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/raylib.pc.in
+D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/src/CMakeLists.txt

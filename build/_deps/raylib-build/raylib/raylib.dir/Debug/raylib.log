@@ -1,0 +1,17 @@
+﻿  Building Custom Rule D:/Aryan/Raylib_Projects/Snake/build/_deps/raylib-src/src/CMakeLists.txt
+cl : command line warning D9002: ignoring unknown option '-s'
+cl : command line warning D9002: ignoring unknown option '-s'
+cl : command line warning D9002: ignoring unknown option '--profiling'
+  USE_GLFW=3
+c1 : fatal error C1083: Cannot open source file: 'USE_GLFW=3': No such file or directory
+  ASSERTIONS=1
+c1 : fatal error C1083: Cannot open source file: 'ASSERTIONS=1': No such file or directory
+  core.c
+D:\Aryan\Raylib_Projects\Snake\build\_deps\raylib-src\src\rlgl.h(693,14): fatal error C1083: Cannot open include file: 'GLES2/gl2.h': No such file or directory
+  models.c
+  shapes.c
+  text.c
+  textures.c
+  utils.c
+  raudio.c
+  Generating Code...
